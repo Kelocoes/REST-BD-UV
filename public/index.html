@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/estilo.css" />
+
+  <title>REST BD-UV</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <form id="contact" action="" method="post" name="formulario1">
+      <h3>Taller Base de datos UNIVALLE</h3>
+      <h4>Insertar Pacientes</h4>
+      <fieldset>
+        <input placeholder="Nombre Paciente" name="nombre" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Apellido Paciente" name="apellido" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Id Paciente" name="identificacion" type="number" tabindex="2" required />
+      </fieldset>
+      <fieldset>
+        <button name="send" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+    </form>
+  </div>
+
+  <div class="container">
+    <form id="contact" name="formulario2">
+      <h3>Taller Base de datos UNIVALLE</h3>
+      <h4>Actualizar Pacientes</h4>
+      <fieldset>
+        <input placeholder="Nombre Paciente" name="nombre" type="text" tabindex="1" required />
+      </fieldset>
+      <fieldset>
+        <input placeholder="Apellido Paciente" name="apellido" type="text" tabindex="1" required />
+      </fieldset>
+      <fieldset>
+        <input placeholder="Id Paciente" name="identificacion" type="number" tabindex="2" required />
+      </fieldset>
+      <fieldset>
+        <button name="update" type="submit" id="contact-update" data-submit="...Updating">Update</button>
+      </fieldset>
+    </form>
+  </div>
+
+  <div class="container">
+    <form id="contact"  name="formulario3">
+      <h3>Taller Base de datos UNIVALLE</h3>
+      <h4>Borrar Pacientes</h4>
+      <fieldset>
+        <input placeholder="Id Paciente" name="identificacion" type="number" tabindex="2" required />
+      </fieldset>
+      <fieldset>
+        <button name="delete" type="submit" id="contact-delete" data-submit="...Deleting">Delete</button>
+      </fieldset>
+    </form>
+  </div>
+
+  <div class="container">
+    <form id="contact"  name="formulario4">
+      <h3>Taller Base de datos UNIVALLE</h3>
+      <h4>Mostrar Pacientes</h4>
+      <fieldset>
+        <button name="show" type="submit" id="contact-show" data-submit="...Show">Show</button>
+      </fieldset>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
